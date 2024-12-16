@@ -6,7 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class C02_DriverNavigateMethodlari {
     public static void main(String[] args) throws InterruptedException {
 
-
         /*
             Bir test otomasyonu icin
             ilk yapmamiz gereken sey bir WebDriver objesi edinmektir.
@@ -38,9 +37,9 @@ public class C02_DriverNavigateMethodlari {
         String expectedUrlIcerik = "youtube";
         String actualUrl = driver.getCurrentUrl();
 
-        if (actualUrl.contains(expectedUrlIcerik)){
+        if (actualUrl.contains(expectedUrlIcerik)) {
             System.out.println("Youtube url testi PASSED");
-        }else System.out.println("Youtube url testi FAILED");
+        } else System.out.println("Youtube url testi FAILED");
 
         //3. Testotomasyonu sayfasina gidelim. https://www.testotomasyonu.com/
         driver.get("https://www.testotomasyonu.com/");
@@ -50,25 +49,23 @@ public class C02_DriverNavigateMethodlari {
         String actualTitle = driver.getTitle();
 
 
-        if (actualTitle.contains(expectedTitleIcerik)){
+        if (actualTitle.contains(expectedTitleIcerik)) {
             System.out.println("Test otomasyonu title testi PASSED");
-        }else System.out.println("Test otomasyonu title testi FAILED");
+        } else System.out.println("Test otomasyonu title testi FAILED");
 
         //4. Tekrar YouTube’sayfasina donelim
         //    driver.navigate().to();   driver.get() ile ayni islevi yerine getirir
         driver.navigate().back();
 
-
         //5. Yeniden testotomasyonu sayfasina gidelim
         driver.navigate().forward();
-
 
         //6. Sayfayi Refresh(yenile) yapalim
         driver.navigate().refresh();
 
         //7. Sayfayi kapatalim / Tum sayfalari kapatalim
 
-
         driver.quit();
+
     }
 }

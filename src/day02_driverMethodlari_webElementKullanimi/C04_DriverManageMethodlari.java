@@ -23,8 +23,6 @@ public class C04_DriverManageMethodlari {
             kodlarimizin calisamamasina
             veya testin FAILED olmasina sebep olur
 
-
-
          */
 
         System.setProperty("Webdriver.chrome.driver","kurulumDosyalari/chromedriver");
@@ -54,10 +52,6 @@ public class C04_DriverManageMethodlari {
             aradigi webelementi bulamazsa
             exception firlatir ve calismayi durdurur
          */
-
-
-
-
 
     }
 }
