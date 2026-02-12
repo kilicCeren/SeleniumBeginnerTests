@@ -36,18 +36,21 @@ Testler, Selenium’un temel kavramlarını adım adım öğrenmeye yönelik ola
 ├── .idea/ # IntelliJ IDEA proje ayarları
 ├── kurulumDosyalari/ # Gerekli kurulum dosyaları
 │ ├── selenium-java-4.26.0/ # Selenium kütüphaneleri
-│ └── chromedriver.exe # ChromeDriver
-├── src/
+│ └── chromedriver.exe # ChromeDriver ├── src/
 │ ├── day01_WebDriverKullanma/ # WebDriver temel kullanımı
 │ │ ├── C01_IlkOtomasyon.java
 │ │ └── C02_WebDriverMethodlari.java
-│ ├── day02_driverMethodlari_web/ # Driver ve navigasyon metodları
+│ ├── day02_driverMethodlari_webElementKullanimi/ # Driver ve navigasyon metodları
 │ │ ├── C01_IlkTestOtomasyonu.java
 │ │ ├── C02_DriverNavigateMethodlari.java
 │ │ ├── C03_DriverManageMethodlari.java
 │ │ ├── C04_DriverManageMethodlari.java
-│ │ ├── C05_WebElementKullanimi.java
-│ │ └── C06_ByClassname.java
+│ │ ├── C05_WebElementKullanma.java
+│ │ └── C06_ByClassName.java
+│ │ └── TestPractice_1.java
+│ │ └── TestPractice_2.java
+│ │ └── TestPractice_3.java
+│ │ └── TestPractice_4.java
 │ ├── day03_locators/ # Locator kullanımları
 │ │ ├── C01_ByClassName.java
 │ │ ├── C02_Locators.java
@@ -57,10 +60,6 @@ Testler, Selenium’un temel kavramlarını adım adım öğrenmeye yönelik ola
 │ │ └── C06_Locators.java
 │ ├── day04_relativeLocators/ # Relative Locator örnekleri
 │ │ └── C01_RelativeLocators.java
-│ ├── TestPractice_1.java
-│ ├── TestPractice_2.java
-│ ├── TestPractice_3.java
-│ └── TestPractice_4.java
 ├── .gitignore
 └── SeleniumBeginnerTests.iml
 ```
@@ -83,3 +82,33 @@ Testler, Selenium’un temel kavramlarını adım adım öğrenmeye yönelik ola
 Bu yapı, test framework karmaşasına girmeden Selenium mantığını öğrenmeyi hedefler.
 
 ---
+
+
+### 📌 Çalıştırma Adımları
+
+1. Repository'i klonlayın:
+
+git clone https://github.com/kilicCeren/SeleniumBeginnerTests.git
+
+
+2. IntelliJ IDEA ile projeyi açın
+
+3. `kurulumDosyalari` içindeki:
+   - `selenium-java-4.26.0` kütüphanelerini
+   - `chromedriver.exe` dosyasını
+   
+   projeye ekleyin
+
+4. İstediğiniz test sınıfını açın ve **main metodunu çalıştırın**
+
+---
+
+## 📌 Öğrenilen Konular
+
+- WebDriver oluşturma
+- `get()`, `navigate()`, `manage()` metodları
+- `WebElement` kullanımı
+- `By.id`, `By.className`, `By.linkText`
+- `XPath` ile element bulma
+- Relative Locators
+- Temel test senaryosu yazımı
