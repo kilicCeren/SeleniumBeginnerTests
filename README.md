@@ -112,3 +112,23 @@ git clone https://github.com/kilicCeren/SeleniumBeginnerTests.git
 - `XPath` ile element bulma
 - Relative Locators
 - Temel test senaryosu yazımı
+
+
+---
+ 
+ ## 📎 Notlar
+ 
+ - Bu proje **tamamen eğitim ve pratik amaçlıdır**
+ - İleri seviyede:
+   - Page Object Model
+   - Test framework'leri
+   - Maven yapısı  
+   eklenerek geliştirilebilir
+ - Kodlar bilinçli olarak sade tutulmuştur
+ 
+---
+ 
+ ## 📝 Lisans
+ 
+ Bu proje **kişisel eğitim ve portföy** amaçlıdır.
+
