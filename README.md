@@ -163,4 +163,56 @@
   > ⚠️ In this project, **Maven, JUnit or TestNG are NOT used.**  
   > Tests are executed directly by running Java classes through the `main` method.
   
-  ---
+
+---
+  
+  ## 📁 Project Structure
+  
+  ```SeleniumBeginnerTests/
+  ├── .idea/ # IntelliJ IDEA project settings
+  ├── kurulumDosyalari/ # Required setup files
+  │ ├── selenium-java-4.26.0/ # Selenium libraries
+  │ └── chromedriver.exe # ChromeDriver ├── src/
+  │ ├── day01_WebDriverKullanma/ # Basic WebDriver usage
+  │ │ ├── C01_IlkOtomasyon.java
+  │ │ └── C02_WebDriverMethodlari.java
+  │ ├── day02_driverMethodlari_webElementKullanimi/ # Driver and navigation methods
+  │ │ ├── C01_IlkTestOtomasyonu.java
+  │ │ ├── C02_DriverNavigateMethodlari.java
+  │ │ ├── C03_DriverManageMethodlari.java
+  │ │ ├── C04_DriverManageMethodlari.java
+  │ │ ├── C05_WebElementKullanma.java
+  │ │ └── C06_ByClassName.java
+  │ │ └── TestPractice_1.java
+  │ │ └── TestPractice_2.java
+  │ │ └── TestPractice_3.java
+  │ │ └── TestPractice_4.java
+  │ ├── day03_locators/ # Locator usages
+  │ │ ├── C01_ByClassName.java
+  │ │ ├── C02_Locators.java
+  │ │ ├── C03_ByLinkText.java
+  │ │ ├── C04_Xpath.java
+  │ │ ├── C05_Xpath_TextKullanimi.java
+  │ │ └── C06_Locators.java
+  │ ├── day04_relativeLocators/ # Relative Locator examples
+  │ │ └── C01_RelativeLocators.java
+  ├── .gitignore
+  └── SeleniumBeginnerTests.iml
+```
+
+---
+## 🧪 Test Structure and Logic
+* Each class is independent and has its own main method
+* Tests are executed directly and results are observed
+* Using Selenium WebDriver:
+     - Opening the browser
+     - Navigating to a URL
+     - Finding elements
+     - Clicking
+     - Sending text input
+     - Retrieving page information
+     basic operations are implemented
+* This structure aims to teach Selenium logic without the complexity of test frameworks.
+
+---
+
