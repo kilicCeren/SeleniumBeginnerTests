@@ -216,3 +216,18 @@
 
 ---
 
+## 📌 Running the Project
+
+1. Clone the repository:
+```
+git clone https://github.com/kilicCeren/SeleniumBeginnerTests.git
+```
+2. Open the project with IntelliJ IDEA
+3. From kurulumDosyalari:
+    - Add the selenium-java-4.26.0 libraries
+    - Add the chromedriver.exe file
+  to the project    
+4. Open any desired test class and ** run the main method**
+
+
+
