@@ -229,5 +229,21 @@ git clone https://github.com/kilicCeren/SeleniumBeginnerTests.git
   to the project    
 4. Open any desired test class and ** run the main method**
 
+---
+
+## 📌Topics Learned
+- Creating WebDriver
+- get(), navigate(), manage() methods
+- WebElement usage
+- By.id, By.className, By.linkText
+- Finding elements with XPath
+- Relative Locators
+- Writing basic test scenarios
+
+---
+
+
+
+
 
 
