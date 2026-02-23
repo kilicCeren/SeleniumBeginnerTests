@@ -57,7 +57,9 @@
   │ │ ├── C03_ByLinkText.java
   │ │ ├── C04_Xpath.java
   │ │ ├── C05_Xpath_TextKullanimi.java
-  │ │ └── C06_Locators.java
+  │ │ ├── C06_Locators.java
+  │ │ ├── TestPractice_1.java
+  │ │ └── TestPractice_2.java  
   │ ├── day04_relativeLocators/ # Relative Locator örnekleri
   │ │ └── C01_RelativeLocators.java
   ├── .gitignore
@@ -193,7 +195,9 @@
   │ │ ├── C03_ByLinkText.java
   │ │ ├── C04_Xpath.java
   │ │ ├── C05_Xpath_TextKullanimi.java
-  │ │ └── C06_Locators.java
+  │ │ ├── C06_Locators.java
+  │ │ ├── TestPractice_1.java
+  │ │ └── TestPractice_2.java  
   │ ├── day04_relativeLocators/ # Relative Locator examples
   │ │ └── C01_RelativeLocators.java
   ├── .gitignore
